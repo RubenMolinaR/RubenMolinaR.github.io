@@ -1,0 +1,71 @@
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+.central {
+  padding: 20px 100px 20px 100px;
+  text-align: justify;
+  -webkit-hyphens: auto;
+          hyphens: auto;
+  color: black;
+  background: radial-gradient(circle, rgb(228, 229, 238) 30%, rgb(82, 79, 79) 100%);
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  padding: 0px 0px 0px 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.enlaces {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.enlaces > .sobremi a, .formacad a, .formcomp a, .exlab a, .conoz a, .otros a {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: none;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  background: linear-gradient(315deg, rgb(134, 8, 31) 0%, rgb(73, 10, 10) 50%, rgb(45, 43, 44) 100%);
+  color: #cbcbcb;
+  padding: 10px 10px 10px 10px;
+  margin: 7.5px 20px 0px 0px;
+  border-radius: 4px;
+  border: 3px solid;
+  border-color: #cbcbcb;
+  outline: none;
+}
+
+.enlaces > .sobremi a:active, .formacad a:active, .formcomp a:active, .exlab a:active, .conoz a:active, .otros a:active {
+  transform: translateY 1px;
+}
+
+.enlaces > .sobremi a:hover, .formacad a:hover, .formcomp a:hover, .exlab a:hover, .conoz a:hover, .otros a:hover, .enlaces > .sobremi a:focus, .formacad a:focus, .formcomp a:focus, .exlab a:focus, .conoz a:focus, .otros a:focus {
+  background: linear-gradient(163deg, rgb(244, 234, 234) 0%, rgb(213, 182, 182) 50%, rgb(91, 72, 72) 100%);
+  color: rgb(73, 10, 10);
+  font-weight: bold;
+  outline-offset: 3px;
+  border-color: rgb(73, 10, 10);
+}/*# sourceMappingURL=estiloscomunes.css.map */

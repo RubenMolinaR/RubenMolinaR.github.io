@@ -1,0 +1,33 @@
+/* CSS*/
+body {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 3fr;
+  margin-bottom: 0px;
+  padding: 0px 10px 10px 0px;
+  height: 150px;
+  background: linear-gradient(356deg, rgb(0, 0, 0) 0%, rgb(38, 36, 36) 50%, rgb(66, 64, 64) 100%);
+}
+
+.footer > .info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px 250px 0px 310px;
+  justify-content: space-around;
+  height: 30px;
+  color: #cdcdcd;
+}
+
+.footer > .info > .social-media a {
+  padding: 0px 40px 0px 0px;
+  color: #cdcdcd;
+}
+
+.footer > .copyright-wrapper {
+  color: #cdcdcd;
+  padding: 0px 0px 20px 390px;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,45 @@
+.cabecero > .enlaces-experiencia {
+  display: grid;
+  margin-right: 0px;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.cabecero > .enlaces-experiencia > .Gestamp a, .Altran a, .Esasolar a, .Cosentino a, .Laulagun a, .Safetech a {
+  display: grid;
+  grid-gap: 10px;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+  font-family: inherit;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-shadow: none;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  background: linear-gradient(176deg, rgb(107, 76, 8) 46%, rgb(253, 187, 45) 100%);
+  color: #bcbcbc;
+  text-align: center;
+  padding: 15px 50px 15px 50px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 4px;
+  border: 3px solid;
+  border-color: #cbcbcb;
+  outline: none;
+}
+
+.cabecero > .enlaces-experiencia > .Gestamp a:active, .Altran a:active, .Esasolar a:active, .Cosentino a:active, .Laulagun a:active, .Safetech a:active {
+  transform: translateY 1px;
+}
+
+.cabecero > .enlaces-experiencia > .Gestamp a:hover, .Altran a:hover, .Esasolar a:hover, .Cosentino a:hover, .Laulagun a:hover, .Safetech a:hover, .enlaces-experiencia > .Gestamp a:focus, .Altran a:focus, .Esasolar a:focus, .Cosentino a:focus, .Laulagun a:focus, .Safetech a:focus {
+  background: radial-gradient(circle, rgb(47, 159, 135) 0%, rgb(4, 38, 33) 100%);
+  color: rgb(10, 8, 49);
+  font-weight: bold;
+  outline-offset: 3px;
+  border-color: rgb(5, 16, 6);
+}/*# sourceMappingURL=cabeceroexperiencialaboralapartados.css.map */
